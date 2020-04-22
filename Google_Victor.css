@@ -1,0 +1,189 @@
+
+body
+{
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  
+}
+
+a
+{
+  text-decoration: none;
+  color: #5F6368;
+}
+
+header
+{
+  display: flex;
+  justify-content: flex-end;
+  color: rgba(0,0,0,0.87);
+  align-items: center;
+
+}
+
+.haut
+{
+  margin: 10px;
+}
+
+.haut:hover
+{
+  text-decoration: underline;
+  opacity: 0.5;
+
+}
+
+.haut2
+{
+  margin: 10px
+}
+
+.haut2:hover
+{
+  opacity: 0.5;
+}
+
+.haut3
+{
+  background-color: #4285f4;
+  padding: 4px 12px 4px 12px;
+  margin: 10px;
+}
+
+#haut
+{
+  color: #FFFFFF;
+
+}
+
+#SectionPrincipal
+{
+  width: 595px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left : 460px;
+  align-items: center;
+  overflow : auto;
+  position:relative;
+
+}
+
+#image
+{
+  margin-top: 110px;
+  margin-bottom: 10px;
+}
+
+#Recherche
+{
+  width: 590px;
+  height: 44px;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,0.054);
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-image: url('loupe.JPG'), url(Micro.JPG);
+  background-position: top left, top right;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+#Recherche:hover
+{
+  border: 2px solid rgba(109, 108, 108, 0.5);
+}
+
+#Recherche:focus
+{
+  /*text-decoration : none;
+  box : none;*/
+}
+
+#Bouton
+{
+  display: flex;
+  margin: 10px;
+}
+
+.bouton
+{
+  margin: 11px 4px 11px 4px; 
+  padding: 10px 16px 10px 16px;
+
+
+  background-color:rgba(0,0,0,0.054);
+  color: #5F6368;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.bouton:hover
+{
+  border: 1px solid rgba(109, 108, 108, 0.5);
+}
+
+#ImageRemarque
+{
+  color: #1A0DAB;
+}
+
+#ImageRemarque:hover
+{
+  text-decoration: underline;
+}
+
+footer
+{
+  display: flex;
+  background-color:rgba(0,0,0,0.054);
+  align-items: flex-end;
+  text-align: center;
+  width: 100%;
+  flex-wrap: wrap;
+  position:absolute;
+  bottom: 0;
+
+
+}
+
+.CaseDuBas
+{
+  margin: 10px;
+}
+
+.CaseDuBas2
+{
+  margin: 10px;
+}
+
+.CaseDuBas:hover
+{
+  text-decoration: underline;
+}
+
+#bar1
+{
+  border-bottom: 1px solid #e4e4e4;
+  text-align: left;
+  width: 100%;
+
+}
+
+#bar2
+{
+  display: flex;
+  width: 49%;
+  text-align: left;
+}
+
+#bar3
+{
+  display: flex;
+  width: 49%;
+  text-align: right;
+  justify-content: flex-end;
+}
